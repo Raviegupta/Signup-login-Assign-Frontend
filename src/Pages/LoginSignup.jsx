@@ -1,12 +1,21 @@
+import { useState } from "react";
 import "./CSS/LoginSignUp.css";
 
 const LoginSignup = () => {
+
+    const [state, setState] = useState('Login');
+
+
   return (
     <div className="loginsignup">
       <div className="loginsignup-container">
-        <h1>Sign Up</h1>
+        <h1>{state}</h1>
         <div className="loginsignup-fields">
-          <input type="text" name="" id="" placeholder="Your name" />
+            {
+                state==='Sign Up'
+                ? <input type="text" name="" id="" placeholder="Your name" />
+                : <></>
+            }
           <input type="email" name="" id="" placeholder="Email Address" />
           <input type="password" name="" id="" placeholder="Password" />
         </div>
@@ -15,7 +24,11 @@ const LoginSignup = () => {
           <p>By continuing, i agree to the terms of use & privacy policy.</p>
         </div>
         <button>Continue</button>
-        <p className="loginsignup-login">Alraedy have an account? <span>Login</span></p>
+        {
+            state==='Sign Up'
+            ? <p className="loginsignup-login">Already have an account? <span onClick={()=>{setState('Login')}}>Login</span></p> 
+            : <p className="loginsignup-login">Create an account? <span onClick={()=>{setState('Sign Up')}}>Click here</span></p>
+        }
       </div>
     </div>
   );
