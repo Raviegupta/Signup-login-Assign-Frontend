@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Signup-login-Assign-Frontend/static/css/main.544d294d.css",
-    "main.js": "/Signup-login-Assign-Frontend/static/js/main.7394db61.js",
+    "main.js": "/Signup-login-Assign-Frontend/static/js/main.0622417c.js",
     "static/js/592.bf6ca574.chunk.js": "/Signup-login-Assign-Frontend/static/js/592.bf6ca574.chunk.js",
     "static/media/upload_area.svg": "/Signup-login-Assign-Frontend/static/media/upload_area.d8fb9fd686a4af4794bdf3f1b815a66b.svg",
     "index.html": "/Signup-login-Assign-Frontend/index.html",
     "main.544d294d.css.map": "/Signup-login-Assign-Frontend/static/css/main.544d294d.css.map",
-    "main.7394db61.js.map": "/Signup-login-Assign-Frontend/static/js/main.7394db61.js.map",
+    "main.0622417c.js.map": "/Signup-login-Assign-Frontend/static/js/main.0622417c.js.map",
     "592.bf6ca574.chunk.js.map": "/Signup-login-Assign-Frontend/static/js/592.bf6ca574.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.544d294d.css",
-    "static/js/main.7394db61.js"
+    "static/js/main.0622417c.js"
   ]
 }
