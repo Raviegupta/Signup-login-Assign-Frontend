@@ -19,7 +19,7 @@ const LoginSignup = () => {
         console.log(formData);
 
         let responseData;
-        await fetch('http://localhost:5000/signup', {
+        await fetch('https://blinkit-imager.onrender.com/signup', {
             method: 'POST',
             headers:{
                 Accept:'application/form-data',
@@ -41,7 +41,7 @@ const LoginSignup = () => {
         console.log(formData);
 
         let responseData;
-        await fetch('http://localhost:5000/login', {
+        await fetch('https://blinkit-imager.onrender.com/login', {
             method: 'POST',
             headers:{
                 Accept:'application/form-data',

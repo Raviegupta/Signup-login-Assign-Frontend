@@ -5,7 +5,7 @@ const ListProduct = () => {
     const [allproducts, setAllproducts] = useState([]);
 
     const fetchData = async () => {
-        const response = await fetch('http://localhost:5000/allproducts');
+        const response = await fetch('https://blinkit-imager.onrender.com/allproducts');
         const data = await response.json();
         setAllproducts(data);
     }
